@@ -7,8 +7,6 @@
 
 - 🌱 I’m currently learning **Deep Learning Frameworks**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1OptW0LCAQznxdkq-NXtHhkPUjRt8FrI2/view?usp=sharing](https://drive.google.com/file/d/1OptW0LCAQznxdkq-NXtHhkPUjRt8FrI2/view?usp=sharing)
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/atharva joshi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="atharva joshi" height="30" width="40" /></a>
