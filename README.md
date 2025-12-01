@@ -1,7 +1,7 @@
 <div align="center"> <h1>👋 Hi, I'm Atharva Joshi</h1> <h3>🚀 Machine Learning Engineer | Data Science Enthusiast | Industrial AI Specialist</h3> <p> <a href="https://linkedin.com/in/atharvajoshi01" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a> <a href="mailto:atharvaj2112@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a> <img src="https://komarev.com/ghpvc/?username=atharvajoshi01&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/> </p> </div>
 <h2>🎯 About Me</h2> I'm a Data Scientist specializing in Machine Learning and Industrial AI, with a proven track record of delivering production-ready models that solve real-world problems. Currently based in New York 🗽, I'm passionate about applying advanced ML techniques to create impactful solutions.
 
-'''python
+```python
 class AtharvaJoshi:
     def __init__(self):
         self.location = "New York, USA 🇺🇸"
@@ -14,7 +14,7 @@ class AtharvaJoshi:
 
 me = AtharvaJoshi()
 me.say_hi()
-'''
+```
 
 <h2>🏆 Featured Projects</h2> <h3>🔧 <a href="https://github.com/atharvajoshi01/mms-fault-classification">MMS Fault Classification System</a></h3> <h4>Industrial Predictive Maintenance with 99.98% Accuracy</h4> <table> <tr> <td width="60%"> Highlights:
 ✅ 99.98% test accuracy on vibration fault detection
