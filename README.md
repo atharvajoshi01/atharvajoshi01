@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Hi, I'm Atharva Joshi</h1>
-  <h3>Machine Learning Engineer | Quantitative Finance | Industrial AI</h3>
+  <h3>ML Engineer | Quantitative Finance | Industrial AI</h3>
   <p>
     <a href="https://linkedin.com/in/atharvajoshi01" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
     <a href="mailto:atharvaj2112@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -10,15 +10,15 @@
 
 ## About Me
 
-I'm a Data Scientist specializing in Machine Learning, Quantitative Finance, and Industrial AI. Based in New York, I build production-ready systems that combine high-performance computing with advanced ML techniques.
+I'm a Machine Learning Engineer specializing in Quantitative Finance, Industrial AI, and production ML systems. Based in New York, I build systems that combine high-performance computing with advanced ML to solve real-world problems — from predicting market drawdowns to detecting industrial faults in real time.
 
 ```python
 class AtharvaJoshi:
     def __init__(self):
         self.location = "New York, USA"
-        self.current_focus = ["Quantitative Finance", "Low-Latency Systems", "Deep Learning"]
+        self.current_focus = ["Quantitative Finance", "Low-Latency Systems", "AI Agents"]
         self.interests = ["Market Microstructure", "Predictive Maintenance", "Neural PDEs"]
-        self.languages = ["Python", "C++", "SQL"]
+        self.languages = ["Python", "C++", "SQL", "TypeScript"]
 
     def say_hi(self):
         print("Let's build something amazing together!")
@@ -29,7 +29,30 @@ me.say_hi()
 
 ## Featured Projects
 
-### <a href="https://github.com/atharvajoshi01/Atlas">Atlas - Low-Latency Order Book Engine</a>
+### <a href="https://github.com/atharvajoshi01/SwarmSage">SwarmSage — Swarm Intelligence Engine</a>
+**Universal multi-agent simulation for predicting outcomes**
+
+- Swarm-based optimization and prediction through emergent collective behavior
+- Multi-agent simulation engine with configurable agent strategies
+- Applicable across finance, logistics, and complex systems modeling
+
+**Tech:** `Python` · `Multi-Agent Systems` · `Swarm Intelligence` · `Simulation`
+
+---
+
+### <a href="https://github.com/atharvajoshi01/PredictWallet">PredictWallet — AI Financial Early Warning System</a>
+**Predicts cash crises 90 days before they hit**
+
+- ML-powered forecasting of personal financial distress signals
+- Full-stack application with React frontend and FastAPI backend
+- CI/CD pipeline with Docker containerization
+- Free, private, and open source
+
+**Tech:** `Python` · `FastAPI` · `React` · `Docker` · `GitHub Actions`
+
+---
+
+### <a href="https://github.com/atharvajoshi01/Atlas">Atlas — Low-Latency Order Book Engine</a>
 **High-Performance Trading Infrastructure with Predictive Execution**
 
 - Sub-microsecond order book operations with lock-free data structures
@@ -41,23 +64,10 @@ me.say_hi()
 
 ---
 
-### <a href="https://github.com/atharvajoshi01/AIRS">AIRS - AI Risk System</a>
-**Early-Warning System for Portfolio Drawdown Risk**
-
-- ML ensemble for predicting market drawdowns before they occur
-- Real-time risk monitoring with Next.js dashboard
-- Multi-asset correlation analysis and regime detection
-- Actionable alerts with confidence intervals
-
-**Tech:** `Python` · `Next.js` · `Ensemble ML` · `Time Series` · `React`
-
----
-
-### <a href="https://github.com/atharvajoshi01/deep-galerkin-pricing">Deep Galerkin Pricing</a>
-**Neural PDE Solver for Derivatives Pricing**
+### <a href="https://github.com/atharvajoshi01/deep-galerkin-pricing">Deep Galerkin Pricing — Neural PDE Solver</a>
+**Production-grade derivatives pricing using deep learning**
 
 - Deep Galerkin Method for solving Black-Scholes and exotic option PDEs
-- Production-grade architecture with configurable neural networks
 - Handles high-dimensional pricing problems intractable for finite differences
 - Comprehensive visualization of option surfaces and Greeks
 
@@ -65,24 +75,22 @@ me.say_hi()
 
 ---
 
-### <a href="https://github.com/atharvajoshi01/mms-fault-classification">MMS Fault Classification</a>
-**Industrial Predictive Maintenance with 99.98% Accuracy**
+### <a href="https://github.com/atharvajoshi01/mms-fault-classification">MMS Fault Classification — Industrial Predictive Maintenance</a>
+**99.98% accuracy vibration fault detection**
 
-- 99.98% test accuracy on vibration fault detection
-- Sub-second inference for real-time monitoring
-- 8-class combined fault detection system
+- 8-class combined fault detection system with sub-second inference
 - Lightweight model (1.7 MB) deployable on edge devices
+- Real-time monitoring dashboard with Streamlit
 
 **Tech:** `MiniRocket` · `scikit-learn` · `Streamlit` · `Signal Processing`
 
 ---
 
 ### <a href="https://github.com/atharvajoshi01/Portfolio">Portfolio Website</a>
-**Personal ML/AI Portfolio with Interactive Demos**
+**Personal ML/AI portfolio with interactive demos**
 
-- Showcases projects with live demonstrations
-- Modern responsive design
-- Project case studies and technical write-ups
+- Showcases projects with live demonstrations and case studies
+- Modern responsive design with Next.js
 
 **Tech:** `Next.js` · `React` · `TypeScript` · `Tailwind CSS`
 
@@ -94,17 +102,17 @@ me.say_hi()
 ### <a href="https://github.com/atharvajoshi01/Monitoring-a-Financial-Fraud-Detection-Model">Financial Fraud Detection Monitoring</a>
 Analysis of model degradation due to data drift in fraud detection systems.
 
-### <a href="https://github.com/atharvajoshi01/Youtube-Adview-Prediction">YouTube AdView Prediction</a>
-Predictive models for YouTube ad viewership using time series analysis.
-
 ### <a href="https://github.com/atharvajoshi01/Heart-Disease-Prediction">Heart Disease Prediction</a>
 ML models for early heart disease detection with clinical datasets.
 
 ### <a href="https://github.com/atharvajoshi01/Fake-News-Detection">Fake News Detection</a>
 NLP-based system for identifying fake news using text classification.
 
-### <a href="https://github.com/atharvajoshi01/Weather-Forecasting-Tool">Weather Forecasting Tool</a>
-Real-time weather forecasting with external API integration.
+### <a href="https://github.com/atharvajoshi01/Face-Generation-using-GANs">Face Generation using GANs</a>
+Face image generation using DCGANs with PyTorch.
+
+### <a href="https://github.com/atharvajoshi01/LSTM-chatbot">LSTM Chatbot</a>
+Conversational chatbot built with LSTM neural networks.
 
 </details>
 
