@@ -1,52 +1,46 @@
 <div align="center">
-  <img src="./assets/control-surface.svg" width="100%" alt="Atharva Joshi control surface header"/>
+  <img src="./assets/field-notes.svg" width="100%" alt="Atharva Joshi field notes header"/>
 </div>
 
 <div align="center">
 
-`AI governance` `quant systems` `agent evaluation` `New York`
+I work on machine learning systems that need to hold up in the real world.
 
-I build ML systems for places where failure has a cost:
-regulation, capital, or operational blast radius.
+That usually means some mix of regulation, latency, and reliability.
 
-[LinkedIn](https://linkedin.com/in/atharvajoshi01) • [Email](mailto:atharvaj2112@gmail.com)
+[LinkedIn](https://linkedin.com/in/atharvajoshi01) • [Email](mailto:atharvaj2112@gmail.com) • New York
 
 </div>
 
-## Control Surface
+## What I Work On
 
-| Channel | Signal |
+| Area | What pulls me in |
 | --- | --- |
-| `Focus` | regulated ML, market systems, reliability tooling |
-| `Primary stack` | `Python` `C++20` `TypeScript` `SQL` |
-| `Bias` | systems over notebooks, proof over hype, constraints over demos |
-| `Best fit` | infra, evaluation, governance, quant-adjacent engineering |
+| `AI governance` | explainability, audit trails, fairness checks, policy-aware tooling |
+| `Quant systems` | order books, pricing, execution research, market microstructure |
+| `Agent evaluation` | measuring accuracy, latency, cost, and safety before something ships |
 
-## Operating Map
+I am less interested in building one more polished demo and more interested in building systems that survive constraints.
 
-```mermaid
-flowchart LR
-    A["Regulation"] --> D["Governance Tooling"]
-    B["Latency"] --> E["Quant Systems"]
-    C["Failure Modes"] --> F["Agent Evaluation"]
-    D --> G["Production ML Under Constraint"]
-    E --> G
-    F --> G
-```
+## Selected Work
 
-## Flagship Systems
+| Project | What it is |
+| --- | --- |
+| [finreg-ml](https://github.com/atharvajoshi01/finreg-ml) | Governance-oriented ML wrapper for explainability, fairness, audit logs, and compliance-oriented reporting |
+| [agenteval](https://github.com/atharvajoshi01/agenteval) | Evaluation harness for agents with side by side comparison across accuracy, latency, cost, and safety |
+| [Atlas](https://github.com/atharvajoshi01/Atlas) | Order book engine with a C++ core and a Python research layer |
+| [deep-galerkin-pricing](https://github.com/atharvajoshi01/deep-galerkin-pricing) | Neural PDE solver for option pricing |
 
-| System | What it does | Stack |
-| --- | --- | --- |
-| [finreg-ml](https://github.com/atharvajoshi01/finreg-ml) | Regulation-aware ML pipeline with reporting, fairness checks, drift monitoring, and audit-oriented outputs | `Python` `scikit-learn` `SHAP` `Pydantic` |
-| [agenteval](https://github.com/atharvajoshi01/agenteval) | Evaluation framework for AI agents with cost, latency, and safety checks | `Python` `asyncio` `Pydantic` `tiktoken` |
-| [Atlas](https://github.com/atharvajoshi01/Atlas) | Low-latency order book engine with a C++ core and Python research layer | `C++20` `Python` `XGBoost` |
-| [deep-galerkin-pricing](https://github.com/atharvajoshi01/deep-galerkin-pricing) | Neural PDE solver for option pricing using the Deep Galerkin Method | `PyTorch` `quant finance` |
+## How I Like To Build
 
-<details>
-<summary><code>inspect /verified-open-source</code></summary>
+- start from the failure modes, not the press release
+- keep the workflow clear enough that another engineer can audit it
+- prefer evidence over posturing
+- treat performance and correctness as product features
 
-These are actual public PRs, not loose claims.
+## Open Source Work
+
+These are actual public PRs.
 
 - [microsoft/agent-governance-toolkit#776](https://github.com/microsoft/agent-governance-toolkit/pull/776) `merged`
   Promoted `EUAIActRiskClassifier` from example code into the library with tests and external config.
@@ -59,47 +53,13 @@ These are actual public PRs, not loose claims.
 - [goldmansachs/gs-quant#345](https://github.com/goldmansachs/gs-quant/pull/345) `open`
   Fixed pandas 2.x compatibility by replacing removed `.append()` calls.
 - [sktime/sktime#9809](https://github.com/sktime/sktime/pull/9809) `open`
-  Fixed `NaiveForecaster.predict_var(cov=True)` returning all-`NaN` covariance matrices.
+  Fixed `NaiveForecaster.predict_var(cov=True)` returning all `NaN` covariance matrices.
 
-</details>
+## Right Now
 
-<details>
-<summary><code>inspect /how-i-think</code></summary>
-
-- I like systems with hard edges: compliance requirements, latency budgets, reproducibility, failure analysis.
-- I prefer tools that survive contact with production instead of looking good in a screenshot.
-- I am most useful where ML touches governance, finance, or operationally sensitive workflows.
-
-</details>
-
-<details>
-<summary><code>inspect /terminal</code></summary>
-
-```text
-$ whoami
-Atharva Joshi
-
-$ domains --active
-AI governance
-Quantitative finance
-Agent evaluation
-
-$ optimize-for
-Correctness
-System constraints
-Public proof of work
-
-$ location
-New York, USA
-```
-
-</details>
-
-## Current Direction
-
-- Building governance tooling that is harder to fake and easier to audit
-- Treating agent evaluation as an engineering discipline, not a prompt contest
-- Working closer to real market and infrastructure constraints
+- making regulated ML workflows easier to explain and review
+- treating agent evaluation like engineering work instead of theater
+- moving closer to systems where implementation detail matters
 
 ## Contact
 

@@ -1,0 +1,47 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Atharva Joshi Field Notes</title>
+  <desc id="desc">A warm editorial collage showing notes on AI governance, quant systems, and agent evaluation.</desc>
+  <rect width="1280" height="360" rx="24" fill="#F5EFE2"/>
+  <rect x="0" y="0" width="1280" height="360" rx="24" fill="url(#grain)" opacity="0.08"/>
+  <defs>
+    <pattern id="grain" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r="1" fill="#0F172A"/>
+      <circle cx="10" cy="7" r="1" fill="#0F172A"/>
+      <circle cx="6" cy="12" r="1" fill="#0F172A"/>
+    </pattern>
+  </defs>
+
+  <rect x="54" y="42" width="534" height="272" rx="22" fill="#FFFDF8" stroke="#D9CFBE" stroke-width="2"/>
+  <rect x="640" y="54" width="248" height="114" rx="18" fill="#DCEAF5" stroke="#AFC7D8" stroke-width="2"/>
+  <rect x="920" y="54" width="292" height="114" rx="18" fill="#DDE9D8" stroke="#B5C6AE" stroke-width="2"/>
+  <rect x="640" y="194" width="572" height="120" rx="18" fill="#FFFDF8" stroke="#D9CFBE" stroke-width="2"/>
+
+  <circle cx="565" cy="70" r="18" fill="#C96C4B"/>
+  <circle cx="865" cy="66" r="12" fill="#365D7A"/>
+  <circle cx="1180" cy="64" r="12" fill="#557A46"/>
+
+  <text x="86" y="86" fill="#7A4A2B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">FIELD NOTES</text>
+  <text x="86" y="144" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="46" font-weight="700">Atharva Joshi</text>
+  <text x="86" y="188" fill="#45515C" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22">Building ML systems where the details actually matter.</text>
+  <text x="86" y="232" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18">AI governance</text>
+  <text x="242" y="232" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18">Quant systems</text>
+  <text x="402" y="232" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18">Agent evaluation</text>
+
+  <line x1="84" y1="246" x2="188" y2="246" stroke="#C96C4B" stroke-width="4" stroke-linecap="round"/>
+  <line x1="238" y1="246" x2="344" y2="246" stroke="#365D7A" stroke-width="4" stroke-linecap="round"/>
+  <line x1="398" y1="246" x2="538" y2="246" stroke="#557A46" stroke-width="4" stroke-linecap="round"/>
+
+  <text x="670" y="92" fill="#365D7A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">CURRENT THEMES</text>
+  <text x="670" y="123" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20" font-weight="600">Reliability</text>
+  <text x="790" y="123" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20" font-weight="600">Traceability</text>
+  <text x="670" y="148" fill="#45515C" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16">Less theater, more proof.</text>
+
+  <text x="950" y="92" fill="#557A46" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">LIKELY PROBLEMS</text>
+  <text x="950" y="123" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18">compliance pressure</text>
+  <text x="950" y="147" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18">latency pressure</text>
+
+  <text x="670" y="232" fill="#7A4A2B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">WORK LOG</text>
+  <text x="670" y="266" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="18">I like systems with hard edges.</text>
+  <text x="670" y="291" fill="#45515C" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16">That usually means regulated ML, market infrastructure,</text>
+  <text x="670" y="313" fill="#45515C" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16">or evaluation work where failure is easy to hide and expensive to ignore.</text>
+</svg>
