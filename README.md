@@ -1,147 +1,64 @@
 <div align="center">
-  <h1>Hi, I'm Atharva Joshi</h1>
-  <h3>ML Engineer | Quantitative Finance | AI Governance</h3>
+  <h1>Atharva Joshi</h1>
+  <p>ML Engineer focused on AI governance, quantitative finance, and agent evaluation.</p>
   <p>
-    <a href="https://linkedin.com/in/atharvajoshi01" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://linkedin.com/in/atharvajoshi01"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
     <a href="mailto:atharvaj2112@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-    <img src="https://komarev.com/ghpvc/?username=atharvajoshi01&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
   </p>
 </div>
 
-## About Me
+I build ML systems for regulated and latency-sensitive environments. My recent work sits around three themes:
 
-ML Engineer building production systems at the intersection of machine learning, quantitative finance, and AI governance. I contribute to open-source projects at Google, Microsoft, NVIDIA, and MONAI, and build tools that make ML in regulated industries less painful.
+- `AI governance`: policy-aware ML tooling, auditability, and EU AI Act-oriented controls
+- `Quant systems`: pricing engines, order book simulation, and market microstructure
+- `Agent evaluation`: reliability, safety, and measurement for LLM-based systems
 
-```python
-class AtharvaJoshi:
-    def __init__(self):
-        self.location = "New York, USA"
-        self.current_focus = ["AI Governance", "Quantitative Finance", "Agent Evaluation"]
-        self.interests = ["Regulated ML", "Market Microstructure", "LLM Safety"]
-        self.languages = ["Python", "C++", "SQL", "TypeScript"]
+Based in New York. Primary languages: `Python`, `C++`, `TypeScript`, `SQL`.
 
-    def say_hi(self):
-        print("Let's build something amazing together!")
+## Selected Projects
 
-me = AtharvaJoshi()
-me.say_hi()
-```
+### [finreg-ml](https://github.com/atharvajoshi01/finreg-ml)
 
-## Open Source Contributions
+Regulation-aware ML pipeline for explainability, fairness checks, drift monitoring, and model reporting.
 
-| Organization | Contribution |
-|---|---|
-| **Microsoft** | EU AI Act risk classifier for agent-governance-toolkit (merged) |
-| **Google** | Security fix in tf-quant-finance (PR open) |
-| **MONAI (NVIDIA)** | Gaussian kernel fix in medical imaging loss functions (PR open) |
-| **FinRL** | Threading bug fix in paper trading engine (merged, 14.6k stars) |
-| **Goldman Sachs** | Pandas 2.x compatibility for gs-quant (PR open) |
-| **sktime** | NaiveForecaster bug fix (PR open, 9.7k stars) |
+Tech: `Python` · `scikit-learn` · `SHAP` · `Pydantic`
 
-## Featured Projects
+### [agenteval](https://github.com/atharvajoshi01/agenteval)
 
-### <a href="https://github.com/atharvajoshi01/finreg-ml">finreg-ml — Regulation-Aware ML Pipeline</a>
-[![CI](https://github.com/atharvajoshi01/finreg-ml/actions/workflows/ci.yml/badge.svg)](https://github.com/atharvajoshi01/finreg-ml/actions/workflows/ci.yml)
+Evaluation framework for AI agents with cost, latency, and safety checks across different agent architectures.
 
-Train a model, get a compliance report. Built for teams shipping ML in regulated industries.
+Tech: `Python` · `Pydantic` · `asyncio` · `tiktoken`
 
-- Wraps any scikit-learn estimator with automatic governance
-- SHAP explanations, fairness audits (demographic parity, disparate impact)
-- EU AI Act compliance checks (Articles 5, 10, 12, 13, 14, 15)
-- Data drift detection (Kolmogorov-Smirnov, PSI)
-- Auto-generated model cards and tamper-proof audit logs
+### [Atlas](https://github.com/atharvajoshi01/Atlas)
 
-**Tech:** `Python` · `scikit-learn` · `SHAP` · `Pydantic`
+Low-latency order book engine with a C++ core and a Python pipeline for execution research.
 
----
+Tech: `C++20` · `Python` · `XGBoost`
 
-### <a href="https://github.com/atharvajoshi01/agenteval">agenteval — AI Agent Evaluation Framework</a>
-[![CI](https://github.com/atharvajoshi01/agenteval/actions/workflows/ci.yml/badge.svg)](https://github.com/atharvajoshi01/agenteval/actions/workflows/ci.yml)
+### [deep-galerkin-pricing](https://github.com/atharvajoshi01/deep-galerkin-pricing)
 
-Measure accuracy, cost, latency, and safety across any AI agent architecture.
+Neural PDE solver for option pricing using the Deep Galerkin Method.
 
-- Works with any agent: LangChain, CrewAI, AutoGen, or plain functions
-- Safety checks: PII leak detection, prompt injection, custom patterns
-- Async runner with configurable concurrency
-- Side-by-side agent comparison with winner selection
+Tech: `PyTorch` · `Quantitative Finance` · `Differential Equations`
 
-**Tech:** `Python` · `Pydantic` · `tiktoken` · `asyncio`
+## Recent Open Source Contributions
 
----
+| Project | Contribution | Status |
+| --- | --- | --- |
+| [microsoft/agent-governance-toolkit#776](https://github.com/microsoft/agent-governance-toolkit/pull/776) | Promoted `EUAIActRiskClassifier` from example code into the library and added tests/config | merged |
+| [microsoft/agent-governance-toolkit#786](https://github.com/microsoft/agent-governance-toolkit/pull/786) | Added docs, examples, changelog, and README updates for the classifier | merged |
+| [AI4Finance-Foundation/FinRL#1410](https://github.com/AI4Finance-Foundation/FinRL/pull/1410) | Fixed incorrect `threading.Thread` target invocation in paper trading | merged |
+| [google/tf-quant-finance#113](https://github.com/google/tf-quant-finance/pull/113) | Replaced `md5` with `sha256` in a cache-key hashing utility | open |
+| [goldmansachs/gs-quant#345](https://github.com/goldmansachs/gs-quant/pull/345) | Updated pandas 2.x compatibility by replacing removed `.append()` calls | open |
+| [sktime/sktime#9809](https://github.com/sktime/sktime/pull/9809) | Fixed `NaiveForecaster.predict_var(cov=True)` returning all-`NaN` covariance matrices | open |
 
-### <a href="https://github.com/atharvajoshi01/Atlas">Atlas — Low-Latency Order Book Engine</a>
+## What I Care About
 
-Sub-microsecond order book operations with ML-powered trade flow prediction.
+- Making ML systems easier to audit, debug, and deploy in regulated settings
+- Building practical tools for evaluation instead of benchmark theater
+- Working close to real system constraints: latency, reproducibility, and failure modes
 
-**Tech:** `C++20` · `Python` · `XGBoost` · `Lock-free Programming`
+## Contact
 
----
-
-### <a href="https://github.com/atharvajoshi01/deep-galerkin-pricing">Deep Galerkin Pricing — Neural PDE Solver</a>
-
-Deep Galerkin Method for solving Black-Scholes and exotic option PDEs.
-
-**Tech:** `PyTorch` · `Neural Networks` · `Quantitative Finance`
-
----
-
-### <a href="https://github.com/atharvajoshi01/PredictWallet">PredictWallet — AI Financial Early Warning</a>
-
-Predicts cash crises 90 days before they hit. Full-stack with CI/CD.
-
-**Tech:** `Python` · `FastAPI` · `React` · `Docker` · `GitHub Actions`
-
----
-
-### <a href="https://github.com/atharvajoshi01/SwarmSage">SwarmSage — Swarm Intelligence Engine</a>
-
-Multi-agent simulation for predicting outcomes through collective behavior.
-
-**Tech:** `Python` · `Multi-Agent Systems` · `Simulation`
-
-## Tech Stack
-
-**Languages**
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
-</p>
-
-**ML & Data Science**
-
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
-  <img src="https://img.shields.io/badge/SHAP-FF6F61?style=for-the-badge" alt="SHAP"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-</p>
-
-**Infrastructure & Tools**
-
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-</p>
-
-## GitHub Statistics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=atharvajoshi01&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=atharvajoshi01&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</div>
-
-## Let's Connect
-
-<div align="center">
-  <p><strong>Email:</strong> <a href="mailto:atharvaj2112@gmail.com">atharvaj2112@gmail.com</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/atharvajoshi01">linkedin.com/in/atharvajoshi01</a></p>
-  <p><strong>Location:</strong> New York, USA</p>
-</div>
+- Email: [atharvaj2112@gmail.com](mailto:atharvaj2112@gmail.com)
+- LinkedIn: [linkedin.com/in/atharvajoshi01](https://linkedin.com/in/atharvajoshi01)
