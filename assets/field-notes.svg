@@ -1,59 +1,46 @@
 <svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Atharva Joshi Studio Board</title>
-  <desc id="desc">A warm studio-board collage that reflects Atharva Joshi's work across governance, quant systems, and agent evaluation.</desc>
+  <desc id="desc">A clean personal studio board showing Atharva Joshi's three focus areas: AI governance, quant systems, and agent evaluation.</desc>
   <defs>
-    <pattern id="papergrain" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="4" r="1" fill="#8A7A67"/>
-      <circle cx="12" cy="7" r="1" fill="#8A7A67"/>
-      <circle cx="7" cy="14" r="1" fill="#8A7A67"/>
+    <pattern id="grain" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="5" r="1" fill="#8C7D69"/>
+      <circle cx="13" cy="9" r="1" fill="#8C7D69"/>
+      <circle cx="8" cy="16" r="1" fill="#8C7D69"/>
     </pattern>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#3B2B1F" flood-opacity="0.12"/>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#3F2C1F" flood-opacity="0.12"/>
     </filter>
   </defs>
 
-  <rect width="1280" height="360" rx="24" fill="#EEE4D2"/>
-  <rect width="1280" height="360" rx="24" fill="url(#papergrain)" opacity="0.08"/>
+  <rect width="1280" height="360" rx="24" fill="#EEE3CF"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grain)" opacity="0.08"/>
 
-  <rect x="70" y="52" width="368" height="250" rx="18" fill="#FFFDF8" stroke="#D7C8B5" stroke-width="2" filter="url(#shadow)" transform="rotate(-2 70 52)"/>
-  <rect x="108" y="38" width="92" height="28" rx="6" fill="#D99373" opacity="0.72" transform="rotate(-4 108 38)"/>
-  <text x="108" y="108" fill="#8A4C2F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="2" transform="rotate(-2 108 108)">WORKBOOK</text>
-  <text x="108" y="156" fill="#17202A" font-family="Georgia, Times New Roman, serif" font-size="44" font-weight="700" transform="rotate(-2 108 156)">Atharva</text>
-  <text x="108" y="198" fill="#17202A" font-family="Georgia, Times New Roman, serif" font-size="44" font-weight="700" transform="rotate(-2 108 198)">Joshi</text>
-  <text x="108" y="238" fill="#44525F" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="19" transform="rotate(-2 108 238)">ML systems, public proof,</text>
-  <text x="108" y="264" fill="#44525F" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="19" transform="rotate(-2 108 264)">and work that survives constraints.</text>
+  <rect x="58" y="42" width="446" height="276" rx="22" fill="#FFFCF6" stroke="#D6C8B4" stroke-width="2" filter="url(#cardShadow)"/>
+  <rect x="94" y="40" width="110" height="30" rx="8" fill="#D79472" opacity="0.85"/>
+  <text x="94" y="96" fill="#935338" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="2">STUDIO BOARD</text>
+  <text x="94" y="158" fill="#17202A" font-family="Georgia, Times New Roman, serif" font-size="56" font-weight="700">Atharva</text>
+  <text x="94" y="218" fill="#17202A" font-family="Georgia, Times New Roman, serif" font-size="56" font-weight="700">Joshi</text>
+  <text x="94" y="252" fill="#44515D" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="24">Builds ML systems where</text>
+  <text x="94" y="281" fill="#44515D" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="24">regulation, latency, and</text>
+  <text x="94" y="310" fill="#44515D" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="24">reliability matter.</text>
 
-  <rect x="486" y="46" width="250" height="122" rx="16" fill="#DCE8F3" stroke="#AFC0D2" stroke-width="2" filter="url(#shadow)" transform="rotate(3 486 46)"/>
-  <text x="512" y="86" fill="#35516B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2" transform="rotate(3 512 86)">NOTE 01</text>
-  <text x="512" y="120" fill="#16222E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="24" font-weight="700" transform="rotate(3 512 120)">AI governance</text>
-  <text x="512" y="146" fill="#41515E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16" transform="rotate(3 512 146)">audit trails, explainability,</text>
-  <text x="512" y="166" fill="#41515E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="16" transform="rotate(3 512 166)">fairness checks, policy-aware ML</text>
+  <rect x="550" y="54" width="650" height="78" rx="20" fill="#DCE8F3" stroke="#AFC0D2" stroke-width="2" filter="url(#cardShadow)"/>
+  <circle cx="590" cy="93" r="14" fill="#355E85"/>
+  <text x="620" y="84" fill="#355E85" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">01</text>
+  <text x="620" y="106" fill="#17202A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="700">AI governance</text>
+  <text x="900" y="106" fill="#41515E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22">Make ML reviewable</text>
 
-  <rect x="786" y="60" width="214" height="108" rx="16" fill="#E3EDD7" stroke="#BCCCAC" stroke-width="2" filter="url(#shadow)" transform="rotate(-4 786 60)"/>
-  <text x="810" y="94" fill="#4F7142" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2" transform="rotate(-4 810 94)">NOTE 02</text>
-  <text x="810" y="126" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="24" font-weight="700" transform="rotate(-4 810 126)">Quant systems</text>
-  <text x="810" y="150" fill="#47555E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15" transform="rotate(-4 810 150)">pricing, order books,</text>
-  <text x="810" y="170" fill="#47555E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15" transform="rotate(-4 810 170)">execution detail</text>
+  <rect x="550" y="144" width="650" height="78" rx="20" fill="#E3EDD7" stroke="#BDCFB0" stroke-width="2" filter="url(#cardShadow)"/>
+  <circle cx="590" cy="183" r="14" fill="#557846"/>
+  <text x="620" y="174" fill="#557846" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">02</text>
+  <text x="620" y="196" fill="#17202A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="700">Quant systems</text>
+  <text x="900" y="196" fill="#41515E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22">Work where latency matters</text>
 
-  <rect x="1034" y="50" width="172" height="118" rx="16" fill="#F9F1DC" stroke="#DAC9A7" stroke-width="2" filter="url(#shadow)" transform="rotate(2 1034 50)"/>
-  <text x="1056" y="84" fill="#9A6C17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2" transform="rotate(2 1056 84)">NOTE 03</text>
-  <text x="1056" y="116" fill="#18212A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="700" transform="rotate(2 1056 116)">Agent eval</text>
-  <text x="1056" y="141" fill="#47555E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15" transform="rotate(2 1056 141)">accuracy, cost,</text>
-  <text x="1056" y="161" fill="#47555E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15" transform="rotate(2 1056 161)">latency, safety</text>
+  <rect x="550" y="234" width="650" height="78" rx="20" fill="#F8F0DC" stroke="#DCC99F" stroke-width="2" filter="url(#cardShadow)"/>
+  <circle cx="590" cy="273" r="14" fill="#A7771A"/>
+  <text x="620" y="264" fill="#A7771A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">03</text>
+  <text x="620" y="286" fill="#17202A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="700">Agent evaluation</text>
+  <text x="900" y="286" fill="#41515E" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22">Measure before release</text>
 
-  <rect x="474" y="202" width="708" height="108" rx="18" fill="#FFFDF8" stroke="#D7C8B5" stroke-width="2" filter="url(#shadow)"/>
-  <text x="506" y="236" fill="#8A4C2F" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">CURRENT DIRECTION</text>
-  <text x="506" y="272" fill="#17202A" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22">Less theater. More receipts.</text>
-  <text x="506" y="298" fill="#4A5661" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="17">Building systems where regulation, latency, and reliability are part of the design, not cleanup work later.</text>
-
-  <path d="M421 274C446 250 460 242 486 238" stroke="#C47D58" stroke-width="3" stroke-linecap="round"/>
-  <path d="M735 110C756 106 772 110 786 118" stroke="#567186" stroke-width="3" stroke-linecap="round"/>
-  <path d="M1000 118C1016 112 1024 112 1034 118" stroke="#7D9A68" stroke-width="3" stroke-linecap="round"/>
-
-  <circle cx="118" cy="318" r="8" fill="#C96C4B"/>
-  <text x="134" y="323" fill="#6C5A4B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">new york</text>
-  <circle cx="244" cy="318" r="8" fill="#365D7A"/>
-  <text x="260" y="323" fill="#6C5A4B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">public OSS</text>
-  <circle cx="382" cy="318" r="8" fill="#557A46"/>
-  <text x="398" y="323" fill="#6C5A4B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">systems first</text>
+  <text x="92" y="338" fill="#6A5B4A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="1">NEW YORK  •  OPEN SOURCE  •  EVIDENCE OVER HYPE</text>
 </svg>
