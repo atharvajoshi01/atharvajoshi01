@@ -1,83 +1,52 @@
 <div align="center">
-  <h1>Atharva Joshi</h1>
-  <p><strong>I build ML systems where mistakes are expensive.</strong></p>
-  <p>
-    AI governance for regulated environments.<br/>
-    Quant systems for fast markets.<br/>
-    Evaluation tooling for agents that need to be measured, not admired.
-  </p>
-  <p>
-    <a href="https://linkedin.com/in/atharvajoshi01"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="mailto:atharvaj2112@gmail.com"><img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  </p>
+  <img src="./assets/control-surface.svg" width="100%" alt="Atharva Joshi control surface header"/>
 </div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Base-New_York-111111?style=flat-square" alt="Base: New York"/>
-  <img src="https://img.shields.io/badge/Primary-Python-1f6feb?style=flat-square" alt="Primary: Python"/>
-  <img src="https://img.shields.io/badge/Systems-C%2B%2B20-0b5fff?style=flat-square" alt="Systems: C++20"/>
-  <img src="https://img.shields.io/badge/Stack-TypeScript%20%7C%20SQL-2f855a?style=flat-square" alt="Stack: TypeScript and SQL"/>
-</p>
+<div align="center">
 
-## Thesis
+`AI governance` `quant systems` `agent evaluation` `New York`
 
-Most ML profiles are a pile of models, notebooks, and dashboards.
+I build ML systems for places where failure has a cost:
+regulation, capital, or operational blast radius.
 
-That is not what I am optimizing for.
+[LinkedIn](https://linkedin.com/in/atharvajoshi01) • [Email](mailto:atharvaj2112@gmail.com)
 
-I care about systems that operate under constraint:
+</div>
 
-- `regulation`: explainability, audit trails, fairness checks, policy-aware tooling
-- `latency`: order books, execution infrastructure, market microstructure
-- `reliability`: evaluation harnesses, failure analysis, safety checks for agents
+## Control Surface
 
-If a system has compliance pressure, real money, or operational blast radius, that is usually where I want to work.
+| Channel | Signal |
+| --- | --- |
+| `Focus` | regulated ML, market systems, reliability tooling |
+| `Primary stack` | `Python` `C++20` `TypeScript` `SQL` |
+| `Bias` | systems over notebooks, proof over hype, constraints over demos |
+| `Best fit` | infra, evaluation, governance, quant-adjacent engineering |
 
-## Build Surface
+## Operating Map
 
-| Area | What I build | Representative repo |
+```mermaid
+flowchart LR
+    A["Regulation"] --> D["Governance Tooling"]
+    B["Latency"] --> E["Quant Systems"]
+    C["Failure Modes"] --> F["Agent Evaluation"]
+    D --> G["Production ML Under Constraint"]
+    E --> G
+    F --> G
+```
+
+## Flagship Systems
+
+| System | What it does | Stack |
 | --- | --- | --- |
-| `AI governance` | Regulation-aware ML pipelines, model reporting, drift and fairness checks | [finreg-ml](https://github.com/atharvajoshi01/finreg-ml) |
-| `Agent evaluation` | Tooling to measure cost, latency, safety, and behavior across agent systems | [agenteval](https://github.com/atharvajoshi01/agenteval) |
-| `Quant systems` | Pricing engines, order book infrastructure, execution-oriented research systems | [Atlas](https://github.com/atharvajoshi01/Atlas), [deep-galerkin-pricing](https://github.com/atharvajoshi01/deep-galerkin-pricing) |
+| [finreg-ml](https://github.com/atharvajoshi01/finreg-ml) | Regulation-aware ML pipeline with reporting, fairness checks, drift monitoring, and audit-oriented outputs | `Python` `scikit-learn` `SHAP` `Pydantic` |
+| [agenteval](https://github.com/atharvajoshi01/agenteval) | Evaluation framework for AI agents with cost, latency, and safety checks | `Python` `asyncio` `Pydantic` `tiktoken` |
+| [Atlas](https://github.com/atharvajoshi01/Atlas) | Low-latency order book engine with a C++ core and Python research layer | `C++20` `Python` `XGBoost` |
+| [deep-galerkin-pricing](https://github.com/atharvajoshi01/deep-galerkin-pricing) | Neural PDE solver for option pricing using the Deep Galerkin Method | `PyTorch` `quant finance` |
 
-## Selected Builds
+<details>
+<summary><code>inspect /verified-open-source</code></summary>
 
-### [finreg-ml](https://github.com/atharvajoshi01/finreg-ml)
-
-Train a model, get governance attached to it from day one.
-
-Built for teams that need more than a validation score before shipping ML into regulated workflows.
-
-`Python` · `scikit-learn` · `SHAP` · `Pydantic`
-
-### [agenteval](https://github.com/atharvajoshi01/agenteval)
-
-Evaluation framework for AI agents with explicit checks for cost, latency, and safety.
-
-Built for comparing agent systems like engineering artifacts instead of demo theater.
-
-`Python` · `Pydantic` · `asyncio` · `tiktoken`
-
-### [Atlas](https://github.com/atharvajoshi01/Atlas)
-
-Low-latency order book engine with a C++ core and a Python research layer.
-
-Built around the kind of system constraints that actually matter in execution infrastructure.
-
-`C++20` · `Python` · `XGBoost`
-
-### [deep-galerkin-pricing](https://github.com/atharvajoshi01/deep-galerkin-pricing)
-
-Neural PDE solver for option pricing using the Deep Galerkin Method.
-
-Built at the intersection of quantitative finance, numerics, and modern ML tooling.
-
-`PyTorch` · `Quantitative Finance` · `Differential Equations`
-
-## Open Source Receipts
-
-These are not vague contribution claims. These are the actual PRs.
+These are actual public PRs, not loose claims.
 
 - [microsoft/agent-governance-toolkit#776](https://github.com/microsoft/agent-governance-toolkit/pull/776) `merged`
   Promoted `EUAIActRiskClassifier` from example code into the library with tests and external config.
@@ -92,11 +61,45 @@ These are not vague contribution claims. These are the actual PRs.
 - [sktime/sktime#9809](https://github.com/sktime/sktime/pull/9809) `open`
   Fixed `NaiveForecaster.predict_var(cov=True)` returning all-`NaN` covariance matrices.
 
+</details>
+
+<details>
+<summary><code>inspect /how-i-think</code></summary>
+
+- I like systems with hard edges: compliance requirements, latency budgets, reproducibility, failure analysis.
+- I prefer tools that survive contact with production instead of looking good in a screenshot.
+- I am most useful where ML touches governance, finance, or operationally sensitive workflows.
+
+</details>
+
+<details>
+<summary><code>inspect /terminal</code></summary>
+
+```text
+$ whoami
+Atharva Joshi
+
+$ domains --active
+AI governance
+Quantitative finance
+Agent evaluation
+
+$ optimize-for
+Correctness
+System constraints
+Public proof of work
+
+$ location
+New York, USA
+```
+
+</details>
+
 ## Current Direction
 
-- Making regulated ML tooling harder to fake and easier to audit
-- Building quant-oriented systems that respect latency and implementation detail
+- Building governance tooling that is harder to fake and easier to audit
 - Treating agent evaluation as an engineering discipline, not a prompt contest
+- Working closer to real market and infrastructure constraints
 
 ## Contact
 
