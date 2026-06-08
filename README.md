@@ -10,10 +10,6 @@ That usually means some mix of regulation, latency, and reliability.
 
 [Portfolio](https://atharvajoshi01.github.io) • [LinkedIn](https://linkedin.com/in/atharvajoshi01) • [Email](mailto:atharvaj2112@gmail.com) • New York
 
-[![finreg-ml on PyPI](https://img.shields.io/pypi/v/finreg-ml?label=finreg-ml&color=1f6feb)](https://pypi.org/project/finreg-ml/)
-[![agenteval on PyPI](https://img.shields.io/pypi/v/agenteval?label=agenteval&color=1f6feb)](https://pypi.org/project/agenteval/)
-[![talent-rag CI](https://img.shields.io/github/actions/workflow/status/atharvajoshi01/talent-rag/ci.yml?branch=main&label=talent-rag%20CI)](https://github.com/atharvajoshi01/talent-rag/actions)
-
 </div>
 
 ## What I Work On
@@ -36,7 +32,7 @@ I am less interested in building one more polished demo and more interested in b
 | [stocksense](https://github.com/atharvajoshi01/stocksense) | End-to-end demand forecasting with walk-forward CV and a reorder-quality decision metric instead of MAPE alone. | [dashboard](https://stocksense-ajoshs-projects.vercel.app/) |
 | [clarify](https://github.com/atharvajoshi01/clarify) | LLM agent that turns a free-text BA brief into a validated artifact pack (requirements, RACI, traceability) without hallucinating. | repo |
 | [crypto-stat-arb](https://github.com/atharvajoshi01/crypto-stat-arb) | Cointegration stat-arb on real Kraken data with Kalman hedge ratios and explicit gross vs. net Sharpe analysis. | repo |
-| [agenteval](https://github.com/atharvajoshi01/agenteval) | LLM-agent evaluation framework. Comparative against a deterministic baseline, so the deployment decision is one number. On PyPI. | repo |
+| [agenteval](https://github.com/atharvajoshi01/agenteval) | LLM-agent evaluation framework. Comparative against a deterministic baseline, so the deployment decision is one number. | repo |
 | [Atlas](https://github.com/atharvajoshi01/Atlas) | C++20 limit order book engine. 62M ops/sec, 16ns insertion, NASDAQ ITCH 5.0 parsing at 258M msg/sec, lock-free ring buffers. | repo |
 
 ## How I Like To Build
