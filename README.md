@@ -101,7 +101,7 @@ These are actual public PRs. Merged contributions get verifiably attributed on t
 - [`crypto-stat-arb`](https://github.com/atharvajoshi01/crypto-stat-arb) Statistical arbitrage engine for cryptocurrency markets — cointegrati… <sub>2026-04-13</sub>
 - [`agenteval`](https://github.com/atharvajoshi01/agenteval) Lightweight evaluation framework for AI agents — measure accuracy, co… <sub>2026-04-06</sub>
 
-<sub>last updated 2026-06-24 UTC</sub>
+<sub>last updated 2026-06-25 UTC</sub>
 <!-- recent_activity_end -->
 
 ## Contact
