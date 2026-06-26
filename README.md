@@ -95,13 +95,13 @@ These are actual public PRs. Merged contributions get verifiably attributed on t
 
 **Recently published repos**
 
+- [`nyc-tlc-congestion-pricing-causal-study`](https://github.com/atharvajoshi01/nyc-tlc-congestion-pricing-causal-study) Causal (difference-in-differences) study of NYC congestion pricing's… <sub>2026-06-26</sub>
 - [`talent-rag`](https://github.com/atharvajoshi01/talent-rag) Production-grade RAG system for talent intelligence — hybrid retrieva… <sub>2026-06-05</sub>
 - [`stocksense`](https://github.com/atharvajoshi01/stocksense) End-to-end demand forecasting and inventory health platform for a dis… <sub>2026-05-13</sub>
 - [`clarify`](https://github.com/atharvajoshi01/clarify) AI Business Analyst agent — brief in, requirements + RTM + test cases… <sub>2026-05-07</sub>
 - [`crypto-stat-arb`](https://github.com/atharvajoshi01/crypto-stat-arb) Statistical arbitrage engine for cryptocurrency markets — cointegrati… <sub>2026-04-13</sub>
-- [`agenteval`](https://github.com/atharvajoshi01/agenteval) Lightweight evaluation framework for AI agents — measure accuracy, co… <sub>2026-04-06</sub>
 
-<sub>last updated 2026-06-25 UTC</sub>
+<sub>last updated 2026-06-26 UTC</sub>
 <!-- recent_activity_end -->
 
 ## Contact
