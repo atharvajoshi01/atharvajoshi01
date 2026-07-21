@@ -87,10 +87,10 @@ These are actual public PRs. Merged contributions get verifiably attributed on t
 
 **Recent open source PRs**
 
+- [`#1359`](https://github.com/kernc/backtesting.py/pull/1359) `kernc/backtesting.py` Fix read-only array error in FractionalBacktest indicator scaling `merged` <sub>2026-07-20</sub>
 - [`#103`](https://github.com/joshyattridge/smart-money-concepts/pull/103) `joshyattridge/smart-money-concepts` Fix look-ahead bias in swing_highs_lows `open` <sub>2026-06-08</sub>
 - [`#328`](https://github.com/stefan-jansen/zipline-reloaded/pull/328) `stefan-jansen/zipline-reloaded` Fix DataPortal correctness bugs: tuple vs None and wrong frequency `open` <sub>2026-06-08</sub>
 - [`#364`](https://github.com/bukosabino/ta/pull/364) `bukosabino/ta` Add Rank and Percentile indicators `open` <sub>2026-06-08</sub>
-- [`#1359`](https://github.com/kernc/backtesting.py/pull/1359) `kernc/backtesting.py` Fix read-only array error in FractionalBacktest indicator scaling `open` <sub>2026-06-08</sub>
 - [`#512`](https://github.com/ranaroussi/quantstats/pull/512) `ranaroussi/quantstats` Add compounded flag to calmar() and rar() `open` <sub>2026-06-08</sub>
 
 **Recently published repos**
@@ -101,7 +101,7 @@ These are actual public PRs. Merged contributions get verifiably attributed on t
 - [`talent-rag`](https://github.com/atharvajoshi01/talent-rag) Production-grade RAG system for talent intelligence — hybrid retrieva… <sub>2026-06-05</sub>
 - [`stocksense`](https://github.com/atharvajoshi01/stocksense) End-to-end demand forecasting and inventory health platform for a dis… <sub>2026-05-13</sub>
 
-<sub>last updated 2026-07-20 UTC</sub>
+<sub>last updated 2026-07-21 UTC</sub>
 <!-- recent_activity_end -->
 
 ## Contact
